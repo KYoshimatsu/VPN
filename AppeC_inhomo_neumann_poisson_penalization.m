@@ -1,3 +1,6 @@
+% ``Volume penalization for inhomogeneous Neumann boundary conditions modeling scalar flux in complicated geometry'' [J. Comput. Phys. 390 (2019) 452-469]
+% and its Corrigendum.
+% by T. Sakurai, K. Yoshimatsu, N. Okamoto and K. Schneider
 % This is the Matlab/Octave code for Fig. C19 in 
 %  "Corrigendum to `Volume penalization for inhomogeneous Neumann boundary conditions modeling scalar flux in complicated geometry'
 %-----
