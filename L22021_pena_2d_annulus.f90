@@ -1,3 +1,8 @@
+! ``Volume penalization for inhomogeneous Neumann boundary conditions modeling scalar flux in complicated geometry'' [J. Comput. Phys. 390 (2019)]
+! and its Corrigendum.
+! by T. Sakurai, K. Yoshimatsu, N. Okamoto and K. Schneider
+! This is the fortran 90 code for Fig. 12 in 
+!  "Corrigendum to `Volume penalization for inhomogeneous Neumann boundary conditions modeling scalar flux in complicated geometry'
 !cc remake by KY.
 !cc 2D periodic domain
 !c L2norm
