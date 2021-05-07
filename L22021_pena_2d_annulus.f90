@@ -52,10 +52,10 @@ double precision, parameter :: omg=1.9d0, conv = 1.0d-9
    y=dy*dble(j-1)
    r=dsqrt((x-pi)**2+(y-pi)**2) 
 !c
-   if ((r>= 0 - eps).and.(r <= pi + eps)) then
+   if ((r>= 0.0d0 - eps).and.(r <= pi + eps)) then
     gc = alpha*((4.0d0*r/3.0d0/pi)**2)    &
  &             *(4.0d0*(1.0d0-r/pi))**3
-    if (r>0) then
+    if (r>0.0d0) then
      xbeta(i,j) = gc*(x-pi)/r
      ybeta(i,j) = gc*(y-pi)/r
     end if
