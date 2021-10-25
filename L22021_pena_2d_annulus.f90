@@ -6,6 +6,7 @@
 !cc remake by KY.
 !cc 2D periodic domain
 !c L2norm
+!c Note that ker A =1 in the discretized equation A x =b, if we use Dirichlet boundary conditions at x=0, 2pi, y= 0, 2pi, instead of the periodic boudanary conditions.
 program main
 implicit none
 integer,parameter :: n=2**10, itmax=10**6
