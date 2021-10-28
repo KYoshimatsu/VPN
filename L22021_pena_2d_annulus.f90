@@ -7,6 +7,9 @@
 !cc 2D periodic domain
 !c L2norm
 !c Note that ker A =1 in the discretized equation A x =b, if we use Dirichlet boundary conditions at x=0, 2pi, y= 0, 2pi, instead of the periodic boudanary conditions.
+!c "ker A =1" is due to the Neumann bc of the non-penalized Poisson eq. Therefore, we should solve Ax=b coupled with a constraint, here int_{fluid region} v dxdy=0.
+!c We do not expect that the choice of beta is an important issue, if we accept O(h) errors and the penalized eq. is well-posed.
+!c beta (x,y) =[beta on the interface] + O(h).
 program main
 implicit none
 integer,parameter :: n=2**10, itmax=10**6
